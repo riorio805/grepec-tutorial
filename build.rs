@@ -5,5 +5,5 @@ fn main() -> Result<(), Box<dyn std::error::Error>> {
             &["proto/services.proto"],  // proto file path
             &["proto"],                 // proto file directory
         )?;
-    Ok(());
+    Ok(())
 }
